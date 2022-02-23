@@ -189,3 +189,23 @@ print(type(say_hello))
 hello  i miss you abhi
 20
 <type 'function'>
+# required argument
+def add(a,b):
+    return a+b
+x=add(12,323)
+print(x)
+
+#a funtion to calculate the factorial of a number
+def factorial(n):
+    m=1
+    for i in range(1,n+1):
+        m*=i
+    return m
+m=factorial(19873487)
+print(m)
+
+# required argument
+def multi(a,b):
+    return a*b
+x=multi(12,3)
+print(x)
